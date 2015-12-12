@@ -21,4 +21,11 @@ public class Constants {
     public static final Color ICICLE_COLOR = Color.WHITE;
     public static final float ICICLE_WIDTH = 10.0f;
     public static final float ICICLE_HEIGHT = 20.0f;
+
+    // PLAYER VARIABLES
+    public static final Color PLAYER_COLOR = Color.CYAN;
+    public static final float PLAYER_HEAD_RADIUS = 10f;
+    public static final float PLAYER_HEAD_HEIGHT = 4.0f * PLAYER_HEAD_RADIUS;
+    public static final float PLAYER_LIMB_WIDTH = 4f;
+    public static final int PLAYER_HEAD_SEGMENTS = 20;
 }
