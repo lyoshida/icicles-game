@@ -10,13 +10,15 @@ public class Constants {
 
 
     // WORLD VARIABLES
-    public static float WORLD_WIDTH = 300.0f;
-    public static float WORLD_HEIGTH = 200.0f;
+    public static final float WORLD_WIDTH = 300.0f;
+    public static final float WORLD_HEIGTH = 200.0f;
 
     // ICICLES SCREEN VARIABLES
-    public static Color ICICLES_BACKGROUND = Color.BLUE;
+    public static final Color ICICLES_BACKGROUND = Color.BLUE;
 
 
     // ICICLE VARIABLES
-    public static Color ICICLE_COLOR = Color.WHITE;
+    public static final Color ICICLE_COLOR = Color.WHITE;
+    public static final float ICICLE_WIDTH = 10.0f;
+    public static final float ICICLE_HEIGHT = 20.0f;
 }
