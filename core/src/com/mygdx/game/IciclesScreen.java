@@ -34,6 +34,8 @@ public class IciclesScreen implements Screen {
 
         icicle = new Icicle(new Vector2(Constants.WORLD_WIDTH/2, Constants.WORLD_HEIGTH/2));
         player = new Player(viewport);
+
+        Gdx.input.setInputProcessor(player);
     }
 
     @Override
